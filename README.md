@@ -164,7 +164,7 @@ This metric measures the total profit gain by the model if it were to bet on the
   <img src="Images/cm_existing_odds_training.png" />
 </p>
 
-Using these odds, the model was able to achieve a total net profit of `$ -2401.60` out of `46226` games.
+The net profit achieved after using the existing odds on `46226` games is `$ -2401.60`.
 
 - **Model:** On the training data, the model was able to achieve an accuracy of **48.43%**. Here is a summary of the model's performance metrics:
 <p align="center">
@@ -186,7 +186,7 @@ Both the model and the existing odds were further tested on `11557` additional n
   <img src="Images/cm_existing_odds_testing.png" />
 </p>
 
-The net profit obtained after using the existing odds is  `$ -330.72$`.
+The net profit obtained after using the existing odds is  `$ -330.72`.
 
 - **Model:** The model had an accuracy of **48.55%**. It also achieved an F1 micro average score of `0.4568` which is consistent with our predictions. Here is a confusion matrix of the predictions using the model:
 <p align="center">
